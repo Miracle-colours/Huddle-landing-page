@@ -1,0 +1,140 @@
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --magenta: hsl(300, 69%, 71%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--violet);
+  background-image: url(images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+header {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.logo {
+  max-width: 140px;
+}
+
+/* MAIN LAYOUT */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.container-image img {
+  max-width: 100%;
+}
+
+.container-content {
+  max-width: 500px;
+}
+
+/* TEXT */
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.2rem;
+  line-height: 1.3;
+}
+
+p {
+  opacity: 0.8;
+  line-height: 1.6;
+}
+
+/* BUTTON */
+.btn {
+  margin-top: 20px;
+  padding: 12px 40px;
+  border-radius: 50px;
+  border: none;
+  background: white;
+  color: var(--violet);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: var(--magenta);
+  color: white;
+}
+
+/* SOCIAL ICONS */
+.attribution {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icons a {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.icons a:hover {
+  border-color: var(--magenta);
+  color: var(--magenta);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  body {
+    background-image: url(images/bg-mobile.svg);
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+    min-height: auto;
+  }
+
+  .container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    position: static;
+    padding: 20px;
+  }
+
+  .attribution {
+    position: static;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+}
