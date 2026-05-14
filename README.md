@@ -21,8 +21,8 @@ Users should be able to:
 
 ## Links
 
-- Live Site:huddle-landing-page-eosin-eight.vercel.app
-- Solution: https://github.com/Miracle-colours/Huddle-landing-page.git
+- Live Site:https//huddle-landing-page-eosin-eight.vercel.app
+- Solution:https://github.com/Miracle-colours/Huddle-landing-page.git
 
 ---
 
