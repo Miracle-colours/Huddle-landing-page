@@ -21,8 +21,8 @@ Users should be able to:
 
 ## Links
 
-- Live Site: https://huddle-landing-page-seven-chi.vercel.app
-- Solution: https://github.com/Miracle-colours/huddle-landing-page
+- Live Site:huddle-landing-page-eosin-eight.vercel.app
+- Solution: https://github.com/Miracle-colours/Huddle-landing-page.git
 
 ---
 
@@ -56,5 +56,5 @@ Users should be able to:
 ## Author
 
 - GitHub: https://github.com/Miracle-colours
-- Frontend Mentor: https://www.frontendmentor.io/profile/YOUR-USERNAME
+- Frontend Mentor: https://www.frontendmentor.io/profile/Miracle-colours
 - Twitter/X: https://x.com/quiet_coder19
